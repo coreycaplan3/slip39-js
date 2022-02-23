@@ -4,6 +4,8 @@
   "description": "The javascript implementation of the SLIP39 for Shamir's Secret-Sharing for Mnemonic Codes.",
   "main": "index.js",
   "scripts": {
+    "generate-secret": "node example/generate-secret.js",
+    "recover-from-secrets": "node example/recover-from-secret.js",
     "test": "mocha"
   },
   "author": "Pal Dorogi \"iLap\" <pal.dorogi@gmail.com>",
